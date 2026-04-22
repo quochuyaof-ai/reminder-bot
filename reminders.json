@@ -1,0 +1,50 @@
+[
+  {
+    "id": "r_0700_reading",
+    "hour": 7,
+    "minute": 0,
+    "text": "📚 7:00 — Reading books",
+    "days": "mon,tue,wed,thu,fri,sat,sun",
+    "paused": false
+  },
+  {
+    "id": "r_0900_news",
+    "hour": 9,
+    "minute": 0,
+    "text": "📰 9:00 — Update tin tức trong ngày",
+    "days": "mon,tue,wed,thu,fri,sat,sun",
+    "paused": false
+  },
+  {
+    "id": "r_1000_work",
+    "hour": 10,
+    "minute": 0,
+    "text": "💼 10:00 — Working",
+    "days": "mon,tue,wed,thu,fri,sat,sun",
+    "paused": false
+  },
+  {
+    "id": "r_1400_piano",
+    "hour": 14,
+    "minute": 0,
+    "text": "🎹 14:00 — Piano",
+    "days": "mon,wed,fri",
+    "paused": false
+  },
+  {
+    "id": "r_1700_run",
+    "hour": 17,
+    "minute": 0,
+    "text": "🏃 17:00 — Running",
+    "days": "mon,tue,wed,thu,fri,sat,sun",
+    "paused": false
+  },
+  {
+    "id": "r_2000_badminton",
+    "hour": 20,
+    "minute": 0,
+    "text": "🏸 20:00 — Cầu lông",
+    "days": "tue,thu",
+    "paused": false
+  }
+]
