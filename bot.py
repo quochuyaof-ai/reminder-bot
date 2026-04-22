@@ -1,7 +1,9 @@
 import os
 import json
 import logging
+import threading
 from datetime import datetime
+from http.server import HTTPServer, BaseHTTPRequestHandler
 from pathlib import Path
 import pytz
 from telegram import Update
@@ -237,7 +239,21 @@ async def post_init(application: Application):
         scheduler.start()
     logger.info(f"Bot ready. Chat ID: {get_chat_id() or 'not set yet'}")
 
+class HealthHandler(BaseHTTPRequestHandler):
+    def do_GET(self):
+        self.send_response(200)
+        self.end_headers()
+        self.wfile.write(b"OK")
+    def log_message(self, *args):
+        pass
+
+def run_health_server():
+    port = int(os.environ.get("PORT", 8080))
+    server = HTTPServer(("0.0.0.0", port), HealthHandler)
+    server.serve_forever()
+
 def main():
+    threading.Thread(target=run_health_server, daemon=True).start()
     app = Application.builder().token(TOKEN).post_init(post_init).build()
     app.add_handler(MessageHandler(filters.ALL, catch_all), group=1)
     for cmd, fn in [
