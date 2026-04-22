@@ -1,6 +1,6 @@
 [
   {
-    "id": "r_0700_reading",
+    "id": "r_7_0",
     "hour": 7,
     "minute": 0,
     "text": "📚 7:00 — Reading books",
@@ -8,7 +8,7 @@
     "paused": false
   },
   {
-    "id": "r_0900_news",
+    "id": "r_9_0",
     "hour": 9,
     "minute": 0,
     "text": "📰 9:00 — Update tin tức trong ngày",
@@ -16,7 +16,7 @@
     "paused": false
   },
   {
-    "id": "r_1000_work",
+    "id": "r_10_0",
     "hour": 10,
     "minute": 0,
     "text": "💼 10:00 — Working",
@@ -24,7 +24,7 @@
     "paused": false
   },
   {
-    "id": "r_1400_piano",
+    "id": "r_14_0",
     "hour": 14,
     "minute": 0,
     "text": "🎹 14:00 — Piano",
@@ -32,7 +32,7 @@
     "paused": false
   },
   {
-    "id": "r_1700_run",
+    "id": "r_17_0",
     "hour": 17,
     "minute": 0,
     "text": "🏃 17:00 — Running",
@@ -40,7 +40,7 @@
     "paused": false
   },
   {
-    "id": "r_2000_badminton",
+    "id": "r_20_0",
     "hour": 20,
     "minute": 0,
     "text": "🏸 20:00 — Cầu lông",
