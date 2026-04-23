@@ -24,14 +24,6 @@
     "paused": false
   },
   {
-    "id": "r_10_0",
-    "hour": 10,
-    "minute": 0,
-    "text": "💼 10:00 — Working",
-    "days": "mon,tue,wed,thu,fri,sat,sun",
-    "paused": false
-  },
-  {
     "id": "r_14_0",
     "hour": 14,
     "minute": 0,
