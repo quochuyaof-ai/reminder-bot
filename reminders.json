@@ -32,6 +32,14 @@
     "paused": false
   },
   {
+    "id": "r_17_30_1777023096490",
+    "hour": 17,
+    "minute": 30,
+    "text": "Running",
+    "days": "mon,tue,wed,thu,fri,sat,sun",
+    "paused": false
+  },
+  {
     "id": "r_20_0",
     "hour": 20,
     "minute": 0,
