@@ -32,14 +32,6 @@
     "paused": false
   },
   {
-    "id": "r_17_0",
-    "hour": 17,
-    "minute": 0,
-    "text": "🏃 17:00 — Running",
-    "days": "mon,tue,wed,thu,fri,sat,sun",
-    "paused": false
-  },
-  {
     "id": "r_20_0",
     "hour": 20,
     "minute": 0,
